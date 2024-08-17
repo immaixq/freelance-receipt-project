@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-primary text-white; /* This should work if everything is set up correctly */
+}
+
+a {
+  @apply text-accent hover:underline;
+}
+
+button,
+input,
+textarea {
+  @apply bg-secondary text-white rounded border-none;
+}
+
+button {
+  @apply px-4 py-2 hover:bg-accent transition;
+}
